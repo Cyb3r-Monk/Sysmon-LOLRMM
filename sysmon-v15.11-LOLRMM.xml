@@ -421,9 +421,9 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 					<ParentImage condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</ParentImage>
-					<ParentImage condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</ParentImage>
+					<ParentImage condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</ParentImage>
 					<OriginalFileName condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</OriginalFileName>
 					<Description condition="is any">Virtual System Administrator Agent;KDLLHost Application;Kaseya Agent Service Helper;VSA Event Log Parser</Description>
 					<Product condition="is any">Virtual System Administrator Agent;Kaseya Agent Service Helper;Virtual System Administrator</Product>
@@ -671,20 +671,20 @@
 					<Company condition="is">ITarian</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
-					<ParentImage condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</ParentImage>
+					<ParentImage condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</ParentImage>
 					<ParentImage condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</ParentImage>
-					<OriginalFileName condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</OriginalFileName>
+					<OriginalFileName condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</OriginalFileName>
 					<Description condition="is any">Windows Agentless Remote Control;ArcUi;Remote Control Client;Windows Agentless Remote Control Loader Helper;LANDESK Agent Health Bootstrap;LANDESK Inventory Server;sensors Application;Ivanti Software Monitor;Targeted Multicast Client Service Executable;Reboot required;Inventory Scanner for Windows;LDAP Who Am I Dll;ldiscnup Application</Description>
 					<Product condition="is">Ivanti Agentless RC</Product>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<ParentImage condition="is any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</ParentImage>
-					<ParentImage condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</ParentImage>
-					<OriginalFileName condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</OriginalFileName>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
+					<ParentImage condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</ParentImage>
+					<ParentImage condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</ParentImage>
+					<OriginalFileName condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</OriginalFileName>
 					<Description condition="is any">An app to help to connect user’s system remotely;Jump Desktop Installer;JumpDesktopUpdater</Description>
 					<Product condition="is any">JumpCloud Remote Assist;Jump Desktop</Product>
 					<Company condition="is any">JumpCloud;Phase Five Systems</Company>
@@ -728,31 +728,31 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 					<ParentImage condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</ParentImage>
-					<ParentImage condition="contains any">\koofr\;koofr-</ParentImage>
+					<ParentImage condition="contains any">\koofr\;\digistorage-es\;koofr-</ParentImage>
 					<OriginalFileName condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</OriginalFileName>
 					<Description condition="is">Koofr</Description>
 					<Product condition="is">Koofr</Product>
 					<Company condition="is">Koofr</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
-					<ParentImage condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</ParentImage>
+					<ParentImage condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</ParentImage>
 					<ParentImage condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</ParentImage>
-					<OriginalFileName condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</OriginalFileName>
+					<OriginalFileName condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</OriginalFileName>
 					<OriginalFileName condition="contains any">laplink-everywhere-setup;oo-syspectr</OriginalFileName>
 					<Description condition="is any">LapLink for Windows 95 Primary Executable;Syspectr</Description>
 					<Product condition="is any">LapLink for Windows 95;Syspectr</Product>
 					<Company condition="is any">Traveling Software, Inc.;Syspectr</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
-					<ParentImage condition="is any">level-windows-amd64.exe;level-windows;level.exe</ParentImage>
-					<ParentImage condition="contains">\Level\</ParentImage>
-					<OriginalFileName condition="is any">level-windows-amd64.exe;level-windows;level.exe</OriginalFileName>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
+					<ParentImage condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</ParentImage>
+					<ParentImage condition="contains any">\Level\;level-windows</ParentImage>
+					<OriginalFileName condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</OriginalFileName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -798,31 +798,33 @@
 					<Description condition="is any">Remote Desktop Connection;Terminal Server Service;RDP Clip Monitor</Description>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
-					<ParentImage condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</ParentImage>
+					<ParentImage condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</ParentImage>
 					<ParentImage condition="contains any">\BeamYourScreen;\Mikogo</ParentImage>
-					<OriginalFileName condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</OriginalFileName>
+					<OriginalFileName condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</OriginalFileName>
 					<Description condition="is any">BeamYourScreen;Mikogo</Description>
 					<Product condition="is any">BeamYourScreen;Mikogo</Product>
 					<Company condition="is any">BeamYourScreen;Mikogo</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
-					<ParentImage condition="is any">MioNet.exe;MioNetManager.exe</ParentImage>
-					<ParentImage condition="contains">\MioNet\</ParentImage>
-					<OriginalFileName condition="is any">MioNet.exe;MioNetManager.exe</OriginalFileName>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
+					<ParentImage condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</ParentImage>
+					<ParentImage condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</ParentImage>
+					<OriginalFileName condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</OriginalFileName>
+					<Description condition="is any">WD Access;WD Transfer;WD Http Helper;WD My Cloud Mirror;WD My Cloud EX4;WD Device Discovery Model;WD My Cloud;WD My Cloud EX2 Ultra;WD My Cloud DL4100;WD My Cloud EX4100;WD My Passport Wireless;WD My Cloud EX2;WD My Cloud DL2100;WD My Cloud EX2100</Description>
+					<Product condition="is any">WD Access;WD Transfer;WD Http Helper;WD My Cloud Mirror;WD My Cloud EX4;WD Device Discovery Model;WD My Cloud;WD My Cloud EX2 Ultra;WD My Cloud DL4100;WD My Cloud EX4100;WD My Passport Wireless;WD My Cloud EX2;WD My Cloud DL2100;WD My Cloud EX2100</Product>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
-					<ParentImage condition="is any">mobaxterm.exe;XWin_MobaX.exe</ParentImage>
-					<ParentImage condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</ParentImage>
-					<OriginalFileName condition="is any">mobaxterm.exe;XWin_MobaX.exe</OriginalFileName>
-					<OriginalFileName condition="contains">MobaXterm</OriginalFileName>
-					<Description condition="is any">MobaXterm;MobaRTE</Description>
-					<Product condition="is any">MobaXterm;MoXT2;MobaRTE</Product>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
+					<ParentImage condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</ParentImage>
+					<ParentImage condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</ParentImage>
+					<OriginalFileName condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe;MobaRTE;MobaX;MobAgent;MobaKeyGen;MobaSCP;MoTTY;MobaBox</OriginalFileName>
+					<OriginalFileName condition="contains any">MobaXterm;mobawget;XWin_MobaX_</OriginalFileName>
+					<Description condition="is any">MobaXterm;MobaRTE;MobaXterm embedded X11 server;MobaXterm SSH authentication agent;MobaXterm SSH key generator;MobaXterm SCP client;MobaXterm terminal emulator;MobaBox;MobaVNC Win32 Server</Description>
+					<Product condition="is any">MobaXterm;MoXT2;MobaRTE;MobaX;MobAgent;MobaKeyGen;MobaSCP;MoTTY;MobaBox;MobaVNC Win32 Server</Product>
 					<Company condition="is">Mobatek</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
@@ -853,11 +855,11 @@
 					<Company condition="is">CloudBerry Lab Inc.;MSP360</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
-					<ParentImage condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</ParentImage>
+					<ParentImage condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</ParentImage>
 					<ParentImage condition="contains any">\mygreenpc\;MyGreenPC</ParentImage>
-					<OriginalFileName condition="is any">mygreenpc.exe;greenpcsvc.exe;greenpc.exe</OriginalFileName>
+					<OriginalFileName condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</OriginalFileName>
 					<OriginalFileName condition="contains">MyGreenPC</OriginalFileName>
 					<Description condition="is">MyGreenPC</Description>
 					<Product condition="is">MyGreenPC</Product>
@@ -870,16 +872,16 @@
 					<ParentImage condition="contains any">\MyIVO;\Aleric\;myivo-</ParentImage>
 					<OriginalFileName condition="is any">myivomgr.exe;myivomanager.exe;myivo.exe;myivodashboard.exe;myivofs.exe;myivovncviewer.exe;myivowinvnc.exe</OriginalFileName>
 					<OriginalFileName condition="contains">myivo-</OriginalFileName>
-					<Description condition="is">MyIVO </Description>
-					<Product condition="is">MyIVO </Product>
-					<Company condition="is">Aleric Technology</Company>
+					<Description condition="is any">MyIVO;MyIVO 4.0 Beta RC8  Setup</Description>
+					<Product condition="is any">MyIVO;MyIVO 4.0 Beta RC8</Product>
+					<Company condition="is any">Aleric Technology;Aleric Technology, Inc</Company>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
-					<ParentImage condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</ParentImage>
+					<ParentImage condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</ParentImage>
 					<ParentImage condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</ParentImage>
-					<OriginalFileName condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</OriginalFileName>
+					<OriginalFileName condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</OriginalFileName>
 					<OriginalFileName condition="contains any">AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</OriginalFileName>
 					<Description condition="is">Splashtop</Description>
 					<Product condition="is">Splashtop</Product>
@@ -1921,9 +1923,9 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 					<TargetFilename condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe;KaseyaD.ini;KaseyaFW.ini;KaseyaSP.dll;KAgentExt.dll;KEventLog.dll;KAPFA.sys;KAPFA64.sys;knetmon.sys;knetmon64.sys;KLuaMessages.dll;Kaseya Agent.lnk;kasmbios.txt;KASetup.log;AgentMon.log;KasError.log;KDLLHost.log;kawmi.dll;KLua.dll</TargetFilename>
-					<TargetFilename condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</TargetFilename>
+					<TargetFilename condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -2087,141 +2089,147 @@
 					<TargetFilename condition="contains all">\ITarian_Remote_Access_;.log</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
-					<TargetFilename condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;ClientRollingLog.dll;Loader64.exe;RollingLog.dll;ArcUi.exe.config;AgentlessRC.exe.config;AgentWatcherSettings_turnoffclient.ini;LDAPPL3.INI;PWMReservedList.ini;LDCUSTOM.INI;LDSCNHLP.INI;LDISCN32.log;ldHpMgr.log;ClientRollingLog.log4net;lddetectsystem.log;wscfg32.log;lddetectsystem.exe;ldaccount.dll;LDSystemEventCapture.dll;lddwnld.dll;ldredirect.dll;LDWFMgr.exe;ldmirror.dll;ldmirror.inf;ldmirror.sys;ldblank.sys;ldmirror.cat;ldcred.dll;lddevcon.exe;LDRemoteSC.inf;LDRemoteSC.dll;LDRemoteSC.cer;LANDeskLaunchpadDLL.dll;LANDeskTaskHistoryDLL.dll;execviewer2.dll;issview.dll;isstnmp.dll;issrboot.dll;issinfo.dll;isshook.dll;issftran.dll;issftcon.dll;issclip.dll;isschat.dll;ftconsol.dll</TargetFilename>
+					<TargetFilename condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;ClientRollingLog.dll;Loader64.exe;RollingLog.dll;ArcUi.exe.config;AgentlessRC.exe.config;AgentWatcherSettings_turnoffclient.ini;LDAPPL3.INI;PWMReservedList.ini;LDCUSTOM.INI;LDSCNHLP.INI;LDISCN32.log;ldHpMgr.log;ClientRollingLog.log4net;lddetectsystem.log;wscfg32.log;lddetectsystem.exe;ldaccount.dll;LDSystemEventCapture.dll;lddwnld.dll;ldredirect.dll;LDWFMgr.exe;ldmirror.dll;ldmirror.inf;ldmirror.sys;ldblank.sys;ldmirror.cat;ldcred.dll;lddevcon.exe;LDRemoteSC.inf;LDRemoteSC.dll;LDRemoteSC.cer;LANDeskLaunchpadDLL.dll;LANDeskTaskHistoryDLL.dll;execviewer2.dll;issview.dll;isstnmp.dll;issrboot.dll;issinfo.dll;isshook.dll;issftran.dll;issftcon.dll;issclip.dll;isschat.dll;ftconsol.dll;ldping.dll;LDHPConnMgr.dll;ldpgp.exe;LDHPGetCMSettings.dll;LDMBBApi.dll;LDRemoteSC64.dll;LDUrlMon32.dll;LDUrlMon64.dll;IvantiCefDLL.dll;LANDeskLaunchpadDLL.resources.dll;LANDeskPortalManager.resources.dll;LANDeskTaskHistoryDLL.resources.dll;rcuser.resources.dll</TargetFilename>
 					<TargetFilename condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
 					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
-					<TargetFilename condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</TargetFilename>
+					<TargetFilename condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;JumpCloud Remote Assist.lnk;Uninstall JumpCloud Remote Assist.exe;JumpCloud Remote Assist.lnk;jc_raasvc.log;Uninstall JumpCloud Remote Assist.exe;JumpDesktop.msi;jrtc.dll;Jump Desktop.lnk</TargetFilename>
 					<TargetFilename condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
-					<Image condition="contains any">\Syncro\;\RepairTech\;\kabuto\;Kabuto.Agent.;Kabuto.App.;Kabuto.Live.;Kabuto.Service.;Kabuto.Tools.;Kabuto.Uninstaller.;Kabuto.WindowsInput.;Syncro.App.;Syncro.Live.;Syncro.Service.;Syncro.Tools.;Syncro.Uninstaller.;SyncroLive.Agent.;SyncroLive.Service.;SyncroLive.WindowsInput.</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<Image condition="contains any">\Syncro\;\RepairTech\;\kabuto\;Kabuto.Agent.;Kabuto.App.;Kabuto.Live.;Kabuto.Service.;Kabuto.Tools.;Kabuto.Uninstaller.;Kabuto.WindowsInput.;Syncro.App.;Syncro.Live.;Syncro.Service.;Syncro.Tools.;Syncro.Uninstaller.;SyncroLive.Agent.;SyncroLive.Service.;SyncroLive.WindowsInput.;RepairTech.Common.</Image>
+					<TargetFilename condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</TargetFilename>
+					<TargetFilename condition="contains any">\Syncro\;\RepairTech\;\kabuto\;Kabuto.Agent.;Kabuto.App.;Kabuto.Live.;Kabuto.Service.;Kabuto.Tools.;Kabuto.Uninstaller.;Kabuto.WindowsInput.;Syncro.App.;Syncro.Live.;Syncro.Service.;Syncro.Tools.;Syncro.Uninstaller.;SyncroLive.Agent.;SyncroLive.Service.;SyncroLive.WindowsInput.;RepairTech.Common.;Syncro.Contracts.</TargetFilename>
+					<TargetFilename condition="contains all">Syncro.Installer;.log</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential KHelpDesk use detected" groupRelation="or">
 					<Image condition="is any">KHelpDesk.exe;KHelpDeskClip.exe</Image>
 					<Image condition="contains any">\KHelpDesk\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">KHelpDesk.exe;KHelpDeskClip.exe;KHelpDeskRes.dll</TargetFilename>
+					<TargetFilename condition="contains any">\KHelpDesk\</TargetFilename>
+					<TargetFilename condition="contains all">LogKHelpDesk;.txt</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential KickIdler use detected" groupRelation="or">
 					<Image condition="image">viewer.exe</Image>
 					<Image condition="contains any">\KickidlerNode\;\Kickidler\;\KickidlerViewer\;\Windows\System32\wmi\bin\svchost.exe</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">viewer.exe</TargetFilename>
+					<TargetFilename condition="contains any">\KickidlerNode\;\Kickidler\;\KickidlerViewer\;\Windows\System32\wmi\bin\svchost.exe;unit.grabber.local.ini;KickidlerViewer.lnk;Uninstall KickidlerViewer.lnk;Uninstall KickidlerNode.lnk</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential KiTTY use detected" groupRelation="or">
 					<Image condition="is any">kageant.exe;kittygen.exe;klink.exe;kitty_portable.exe;ksftp.exe;kscp.exe</Image>
 					<Image condition="contains any">\kitty\;KiTTY</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">kageant.exe;kittygen.exe;klink.exe;kitty_portable.exe;ksftp.exe;kscp.exe</TargetFilename>
+					<TargetFilename condition="contains any">\kitty\;KiTTY</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
+					<TargetFilename condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe;Koofr.lnk;Uninstall Koofr.lnk</TargetFilename>
+					<TargetFilename condition="contains any">\koofr\;\digistorage-es\;koofr-</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;OOSysAgent.exe.config;OOSysAssemblyLoader.dll;OOSysBaseModule.dll;OOSysBaseModule.dll.config;OOSysBootstrapper.dll;OOSysBootstrapper.XmlSerializers.dll;OOSysBranding.dll;OOSysEngine.dll;OOSysEngine.dll.config;OOSysEngine.XmlSerializers.dll;OOSysEngineBase.dll;OOSysSharedTools.dll;OOSysUtils.dll;OOSysUtils.dll.config;SyspectrIcon.exe;OOSysLog;OOAdViewer.exe;OOLiveUpdateWorker.exe</TargetFilename>
+					<TargetFilename condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</TargetFilename>
+					<TargetFilename condition="end with">_OOLiveUpdate.log</TargetFilename>
+					<TargetFilename condition="end with"> Syspectr.log</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
+					<TargetFilename condition="is any">level-windows-amd64.exe;level-windows;level.exe;osqueryi.exe;level.log</TargetFilename>
+					<TargetFilename condition="contains any">\Level\;level-windows</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
 					<Image condition="contains any">\LiteManager Pro – Viewer\;\LiteManager\;\LiteManager NoIpServer\;\LiteManager - Viewer\;\LiteManager Pro - Server\;\LiteManagerFree - Server\;\LiteManagerFree - Viewer\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe;Settings for LM-Server.lnk;Stop LM-Server.lnk;Uninstall LiteManager - Server.lnk;Start LM-Server.lnk;ROMwln.dll;LMNoIpServer.map;lmwrite.txt</TargetFilename>
+					<TargetFilename condition="contains any">\LiteManager Pro – Viewer\;\LiteManager\;\LiteManager NoIpServer\;\LiteManager - Viewer\;\LiteManager Pro - Server\;\LiteManagerFree - Server\;\LiteManagerFree - Viewer\</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MEGAsync use detected" groupRelation="or">
 					<Image condition="is any">MEGAsyncSetup64.exe;MEGAupdater.exe;MEGAsync.exe;mega-desktop-app-gfxworker.exe</Image>
 					<Image condition="contains">\MEGAsync\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">MEGAsyncSetup64.exe;MEGAupdater.exe;MEGAsync.exe;mega-desktop-app-gfxworker.exe;MEGA Website.lnk;MEGAsync.lnk;MEGA Website.url;megatmp.M1.txt;megatmp.M2.txt;MEGAsync.cfg</TargetFilename>
+					<TargetFilename condition="contains">\MEGAsync\</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MeshCentral/Tactical RMM use detected" groupRelation="or">
 					<Image condition="is any">rmm.exe;tacticalrmm.exe;MeshAgent.exe</Image>
 					<Image condition="contains any">\Mesh Agent\;\TacticalAgent\;\TacticalRMM\;tacticalagent;TacticalRMM;meshcentral;meshagent</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">rmm.exe;tacticalrmm.exe;MeshAgent.exe;MeshAgent.log;MeshAgent.msh</TargetFilename>
+					<TargetFilename condition="contains any">\Mesh Agent\;\TacticalAgent\;\TacticalRMM\;tacticalagent;TacticalRMM;meshcentral;meshagent</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Microsoft Quick Assist use detected" groupRelation="or">
 					<Image condition="image">quickassist.exe</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is">quickassist.exe</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Windows RDP use detected" groupRelation="or">
 					<Image condition="is any">mstsc.exe;termsrv.exe;rdpclip.exe</Image>
 					<Image condition="contains">Microsoft Remote Desktop</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">mstsc.exe;termsrv.exe;rdpclip.exe</TargetFilename>
+					<TargetFilename condition="contains any">\Microsoft\Terminal Server Client\;\Microsoft\Windows\RDS\;\Microsoft\Clipboard\;\\tsclient\</TargetFilename>
+					<TargetFilename condition="end with">.RDP</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe;Mikogo.lnk;BeamYourScreen.lnk;Uninstall BeamYourScreen.lnk;BeamYourScreen.cfg</TargetFilename>
+					<TargetFilename condition="contains any">\BeamYourScreen;\Mikogo</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
+					<TargetFilename condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe;WDAccessSetup.msi;MyCloudEX2.dll;MyPassportWireless.dll;MyCloudEX4100.dll;MyCloudDL4100.dll;MyCloudEX2Ultra.dll;MyCloud.dll;MyCloudEX4.dll;MyCloudMirror.dll;WD Access.dll;WDAccess.tmx;WDAccess.dll.config;WDHttpHelper.dll;WDOrionAPI.dll;WDTransfer.dll;WDTransfer.tmx;WD Access.lnk;WD Transfer.log;WD Access.log</TargetFilename>
+					<TargetFilename condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</TargetFilename>
+					<TargetFilename condition="contains all">WD_Access_;.log</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
+					<TargetFilename condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaXterm_installer.dat;MobaXterm_installer_;MobaXterm.ico;MobaTextEditor.ico;MobaDiff.ico;MobaXterm.lnk;MobaTextEditor.lnk;MobaDiff.lnk;Visit MobaXterm Website.lnk;;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;ServersListToMxtSessions.sh;MobaVNC.exe</TargetFilename>
+					<TargetFilename condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;MobaTools;XWin_MobaX_</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
 					<Image condition="contains any">\Mouse without Borders\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe;MouseWithoutBorders.exe.config;MouseWithoutBorders.exe.manifest;MouseWithoutBordersHelper.exe.config;MouseWithoutBordersSvc.exe.config;mousewithoutborderssetup.msi</TargetFilename>
+					<TargetFilename condition="contains any">\Mouse without Borders\</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential mRemoteNG use detected" groupRelation="or">
 					<Image condition="is any">mRemoteNG.exe;mremoteng-portable.exe</Image>
 					<Image condition="contains any">\mremoteng\;\mremoteng-portable\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">mRemoteNG.exe;mremoteng-portable.exe;mRemoteNG.resources.dll;mRemote.ico;mRemoteNG.pdb;mRemoteNG.exe.config;mRemoteNG.lnk;mRemoteNG.log</TargetFilename>
+					<TargetFilename condition="contains any">\mremoteng\;\mremoteng-portable\;mRemoteNG.exe_Url_</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MSP360 use detected" groupRelation="or">
 					<Image condition="is any">Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;CloudRaService.exe;CloudRaSd.exe;CloudRaCmd.exe;CloudRaUtilities.exe;Remote Desktop.exe;Quick Restore.exe;Cloud.DiskImage.Flash.Launcher.exe;Cloud.DiskImage.RestoreVerificationService.exe;CloudBerry Online Backup Service.exe;Cloud.Backup.ConsoleWPF.exe</Image>
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">Online Backup.exe;CBBackupPlan.exe;Cloud.Backup.Scheduler.exe;Cloud.Backup.RM.Service.exe;cbb.exe;CloudRaService.exe;CloudRaSd.exe;CloudRaCmd.exe;CloudRaUtilities.exe;Remote Desktop.exe;Quick Restore.exe;Cloud.DiskImage.Flash.Launcher.exe;Cloud.DiskImage.RestoreVerificationService.exe;CloudBerry Online Backup Service.exe;Cloud.Backup.ConsoleWPF.exe;CBFS6Net.dll;Cloud.Backup.DiskImage.BootImage.dll;Cloud.Backup.DiskImage.dll;Cloud.Backup.ESXiEngine.dll;Cloud.Backup.ESXiEngine55.dll;Cloud.Backup.ESXiEngine67.dll;Cloud.Backup.ESXiEngine80.dll;Cloud.Backup.Engine.Data.SQLite.dll;Cloud.Backup.Engine.MBS.XmlSerializers.dll;Cloud.Backup.Engine.MBS.dll;Cloud.Backup.Engine.XmlSerializers.dlll;Cloud.Backup.Engine.dll;Cloud.Backup.Exchange.dll;Cloud.Backup.MSSQL.dll;Cloud.Backup.RM.Client.SIO.RDP.dll;Cloud.Backup.RM.Client.SIO.dll;Cloud.Backup.RM.Client.dll;Cloud.Backup.RM.SIO.dll;loud.Backup.SR.dll;Cloud.Backup.UI.dll;Cloud.Backup.VM.dll;Cloud.Backup.dll;CBBackupPlan.resources.dll;Cloud.Backup.ConsoleWPF.resources.dll;Cloud.Backup.Engine.resources.dll;Cloud.Backup.Exchange.resources.dll;Cloud.Backup.MSSQL.resources.dll;Cloud.Backup.Scheduler.resources.dll;Cloud.Backup.UI.resources.dll;Cloud.Backup.VM.resources.dll;cbb.resources.dll;Cloud.Backup.ConsoleWPF.resources.dll;Cloud.Backup.Engine.resources.dll;Cloud.Backup.Scheduler.resources.dll;Cloud.Backup.UI.resources.dll;cbb.log</TargetFilename>
+					<TargetFilename condition="contains any">\Quick Restore\;\MSP360\</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</TargetFilename>
+					<TargetFilename condition="contains any">\mygreenpc\;MyGreenPC</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
 					<Image condition="is any">myivomgr.exe;myivomanager.exe;myivo.exe;myivodashboard.exe;myivofs.exe;myivovncviewer.exe;myivowinvnc.exe</Image>
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">myivomgr.exe;myivomanager.exe;myivo.exe;myivodashboard.exe;myivofs.exe;myivovncviewer.exe;myivowinvnc.exe;myivo.db-journal;MyIVO 4.0 Beta RC8.lnk;Uninstall MyIVO 4.0 Beta RC8.lnk;myivomanager.exe.manifest;MyIVO 4 Beta.lnk;myivo.db;myivo.log</TargetFilename>
+					<TargetFilename condition="contains any">\MyIVO;\Aleric\;myivo-</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
-					<TargetFilename condition="is any">\Startup\</TargetFilename>
-					<TargetFilename condition="contains any">\Startup\</TargetFilename>
+					<TargetFilename condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;PreVerC.log.txt;ClientUtil.exe;PreVerCheck.exe;stevt_src_b_provider.man;unpackC.log;stevt_src_b_x64.dll;stevt_src_b_x86.dll;stevt_src_b.dll;stvideo.dll;stmirror.dll;PinShortCut.exe;spupnp.exe;SRAdemWrapper.dll;SRAppAnnotation.dll;SRAppBrowser.dll;SRAppBS.exe;SRAppCam.dll;SRAppED.dll;SRAppFileHound.dll;SRAudioResample.dll;SRDetect.exe;SRDxgiCaptor.dll;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRx264Wrapper.dll;SRChat.exe;libstutils.dll;STCSSU.exe;STCAPI.dll;STCActivate.exe;STC.dll;STCAgent.exe;STCHelper.exe;STCRes.dll;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SSUClient.dll;SSUAPI.dll;SRUnPackFile.exe;SRMergeFile.exe;FTCLog.txt;agent_log.txt;SPLog.txt;svcinfo.txt;sysinfo.txt;SRAgent.sqlite3;stgamepad.sys;BdEpSDK.exe;BdEpSDK_x86.exe;stgamepad.cat;stgamepad.infstdpms.cat;stdpms.inf;stprintmon.dll;stprinter.cat;stprinter.inf;stvad.cat;stvad.inf;stvspk.cat;stvspk.inf;stvideo.inf;SRUsb.exe;SRUsbVhciCtrl64.dll;SRUsbVhciCtrl32.dll;SRWacomCtrl64.dll;SRWacomUtil64.exe;SRWacomCtrl32.dll;SRWacomUtil32.exe;SRServer.pem;sthid.cat;sthid.inf;StHidNotSupport.reg;StHidSupport.reg;SRSocketCtrl.dll;SRClient.pem;stevt_srs.dll;stvideo.inf</TargetFilename>
+					<TargetFilename condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</TargetFilename>
+					<TargetFilename condition="contains all">unpackC_;.log</TargetFilename>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
 					<Image condition="is any">NetLock_RMM_Agent_Installer.exe;NetLock_RMM_User_UAC.exe;NetLock_RMM_User_Process.exe</Image>
@@ -2967,7 +2975,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 					<DestinationHostname condition="end with">.electric.ai</DestinationHostname>
 					<DestinationHostname condition="end with">.kaseya.com</DestinationHostname>
 					<DestinationHostname condition="end with">.kaseya.net</DestinationHostname>
@@ -3129,14 +3137,14 @@
 					<DestinationHostname condition="end with">cescollector.cwatchapi.com</DestinationHostname>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 					<DestinationHostname condition="end with">.ivanticloud.com</DestinationHostname>
 					<DestinationHostname condition="end with">.ivanti.com</DestinationHostname>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 					<DestinationHostname condition="end with">.jumpcloud.com</DestinationHostname>
 					<DestinationHostname condition="end with">.jumpdesktop.com</DestinationHostname>
 					<DestinationHostname condition="end with">.jumpto.me</DestinationHostname>
@@ -3171,17 +3179,17 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 					<DestinationHostname condition="end with">.laplink.com</DestinationHostname>
 					<DestinationHostname condition="end with">.syspectr.com</DestinationHostname>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 					<DestinationHostname condition="end with">.level.io</DestinationHostname>
 					<DestinationHostname condition="end with">.downloads.io</DestinationHostname>
 				</Rule>
@@ -3210,7 +3218,7 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 					<DestinationHostname condition="end with">.real-time-collaboration.com</DestinationHostname>
 					<DestinationHostname condition="end with">.mikogo4.com</DestinationHostname>
@@ -3218,12 +3226,12 @@
 					<DestinationHostname condition="end with">.beamyourscreen.com</DestinationHostname>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -3242,7 +3250,7 @@
 					<DestinationHostname condition="end with">.mremoteng.org</DestinationHostname>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 					<DestinationHostname condition="end with">.mygreenpc.com</DestinationHostname>
 				</Rule>
@@ -3252,7 +3260,7 @@
 					<DestinationHostname condition="is">myivo-server.software.informer.com</DestinationHostname>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 					<DestinationHostname condition="end with">.naverisk.com</DestinationHostname>
 					<DestinationHostname condition="end with">.splashtop.com</DestinationHostname>
@@ -3854,7 +3862,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -3958,12 +3966,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -3983,15 +3991,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -4013,16 +4021,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -4037,7 +4045,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -4045,7 +4053,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -4560,7 +4568,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -4664,12 +4672,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -4689,15 +4697,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -4719,16 +4727,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -4743,7 +4751,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -4751,7 +4759,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -5270,7 +5278,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -5374,12 +5382,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -5399,15 +5407,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -5429,16 +5437,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -5453,7 +5461,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -5461,7 +5469,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -6061,7 +6069,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -6165,12 +6173,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -6190,15 +6198,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -6220,16 +6228,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -6244,7 +6252,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -6252,7 +6260,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -6762,7 +6770,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -6866,12 +6874,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -6891,15 +6899,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -6921,16 +6929,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -6945,7 +6953,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -6953,7 +6961,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -7456,7 +7464,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -7560,12 +7568,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -7585,15 +7593,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -7615,16 +7623,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -7639,7 +7647,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -7647,7 +7655,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -8157,7 +8165,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -8261,12 +8269,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -8286,15 +8294,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -8316,16 +8324,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -8340,7 +8348,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -8348,7 +8356,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -8959,7 +8967,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 					<QueryName condition="end with">.electric.ai</QueryName>
 					<QueryName condition="end with">.kaseya.com</QueryName>
 					<QueryName condition="end with">.kaseya.net</QueryName>
@@ -9121,14 +9129,14 @@
 					<QueryName condition="end with">cescollector.cwatchapi.com</QueryName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 					<QueryName condition="end with">.ivanticloud.com</QueryName>
 					<QueryName condition="end with">.ivanti.com</QueryName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 					<QueryName condition="end with">.jumpcloud.com</QueryName>
 					<QueryName condition="end with">.jumpdesktop.com</QueryName>
 					<QueryName condition="end with">.jumpto.me</QueryName>
@@ -9163,17 +9171,17 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 					<QueryName condition="end with">.laplink.com</QueryName>
 					<QueryName condition="end with">.syspectr.com</QueryName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 					<QueryName condition="end with">.level.io</QueryName>
 					<QueryName condition="end with">.downloads.io</QueryName>
 				</Rule>
@@ -9202,7 +9210,7 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 					<QueryName condition="end with">.real-time-collaboration.com</QueryName>
 					<QueryName condition="end with">.mikogo4.com</QueryName>
@@ -9210,12 +9218,12 @@
 					<QueryName condition="end with">.beamyourscreen.com</QueryName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -9234,7 +9242,7 @@
 					<QueryName condition="end with">.mremoteng.org</QueryName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 					<QueryName condition="end with">.mygreenpc.com</QueryName>
 				</Rule>
@@ -9244,7 +9252,7 @@
 					<QueryName condition="is">myivo-server.software.informer.com</QueryName>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 					<QueryName condition="end with">.naverisk.com</QueryName>
 					<QueryName condition="end with">.splashtop.com</QueryName>
@@ -9847,7 +9855,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -9951,12 +9959,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -9976,15 +9984,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -10006,16 +10014,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -10030,7 +10038,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -10038,7 +10046,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
@@ -10549,7 +10557,7 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Electric AI (Kaseya)/Kaseya VSA use detected" groupRelation="or">
 					<Image condition="is any">KcsSetup.exe;KAgentSilent.exe;KaSetup.exe;KaUsrTsk.exe;AgentMon.exe;Kaseya.AgentEndpoint.exe;KDLLHost.exe;KLicense.exe;KaseyaEndpoint.exe;KPrtPng.exe;KaUsrTsk.exe;KaseyaTaskRunnerx64.exe;KaseyaCommandShellProxy.exe;KaseyaEndpoint.exe;KaseyaRemoteControlHost.exe;KaseyaTaskRunnerx86.exe;kGetELMg64.exe;KaUpdHlp.exe;KasAVSrv.exe;LiveConnect.exe;LogFileCleaner.exe;kaseyaliveconnect.exe;kaseya.adminendpoint.exe;kaseya remote control.exe</Image>
-					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\</Image>
+					<Image condition="contains any">\kaseya live connect\;\KaseyaLiveConnect\;\kaseya remote control\;\Kaseya\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential EMCO Remote Console use detected" groupRelation="or">
 					<Image condition="is any">remoteconsole.exe;RemoteDeployment.exe;RemoteInstallerProfessional.exe</Image>
@@ -10653,12 +10661,12 @@
 					<Image condition="contains any">\ITarian\;\COMODO\Endpoint Manager\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Ivanti Remote Control/Landesk use detected" groupRelation="or">
-					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe</Image>
+					<Image condition="is any">IvantiRemoteControl.exe;AddNetWareSC.exe;ArcUI.exe;AgentlessRC.exe;ArcUser.exe;ARViewer.exe;issuser.exe;ircproxy.exe;isscntr.exe;issproxy.exe;issftran64helper.exe;landeskagentbootstrap.exe;LANDeskPortalManager.exe;ldinv32.exe;ldsensors.exe;softmon.exe;tmcsvc.exe;rcgui.exe;rchelper.exe;rckvm.exe;RCUser.exe;ldReboot.exe;ldinv32o.exe;ldiscn32.exe;lddiscover.exe;ldsecsvc.exe;LDUrlMonInject64.exe;LTAClientEnforcer.exe;sdmsvc.exe;LDAPWhoAmI.exe;LDCMD32.EXE;LDCSTM32.EXE;LDEVTVWR.EXE;ldiscnupdate.exe;Loader64.exe;lddetectsystem.exe;LDWFMgr.exe;lddevcon.exe;ldpgp.exe</Image>
 					<Image condition="contains any">\RCViewer\;\LDWM\;\ldlogon\;\LANDesk\;\LDClient\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Jump Cloud/Jump Desktop use detected" groupRelation="or">
-					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
-					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop;JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe</Image>
+					<Image condition="is any">JumpCloud Remote Assist.exe;jumpcloud-assist-service.exe;JumpCloudRemoteAssistInstaller.exe;desktop-change-listener.exe;JumpClient.exe;JumpDesktop.exe;jumpservice.exe;jumpconnect.exe;jumpupdater.exe;JumpDesktopUpdater.exe;Uninstall JumpCloud Remote Assist.exe</Image>
+					<Image condition="contains any">\Phase Five Systems\;\JumpCloud Remote Assist\;\JumpCloud\;\Jump Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Kabuto/Syncro/RepairTech/Servably use detected" groupRelation="or">
 					<Image condition="is any">kabuto_updater.exe;Kabuto_old.exe;Syncro.Installer.exe;Syncro.Overmind.Service.exe;Kabuto.Installer.exe</Image>
@@ -10678,15 +10686,15 @@
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Koofr use detected" groupRelation="or">
 					<Image condition="is any">storagegui.exe;storagechrome.exe;storagecmd.exe;storagedevice.exe;storagesync.exe</Image>
-					<Image condition="contains any">\koofr\;koofr-</Image>
+					<Image condition="contains any">\koofr\;\digistorage-es\;koofr-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Laplink Everywhere/Laplink Gold/Syspectr use detected" groupRelation="or">
-					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe</Image>
+					<Image condition="is any">laplink.exe;laplinkeverywhere.exe;llrcservice.exe;serverproxyservice.exe;OOSysAgent.exe;tsircusr.exe;OOLiveUpdate.exe;SyspectrIcon.exe;OOAdViewer.exe;OOLiveUpdateWorker.exe</Image>
 					<Image condition="contains any">\Syspectr\;\OO Software\;laplink-everywhere-setup;oo-syspectr</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Level use detected" groupRelation="or">
-					<Image condition="is any">level-windows-amd64.exe;level-windows;level.exe</Image>
-					<Image condition="contains">\Level\</Image>
+					<Image condition="is any">level-windows-amd64.exe;level.exe;osqueryi.exe</Image>
+					<Image condition="contains any">\Level\;level-windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Lite Manager use detected" groupRelation="or">
 					<Image condition="is any">LMNoIpServer.exe;ROMFUSClient.exe;ROMServer.exe;ROMViewer.exe</Image>
@@ -10708,16 +10716,16 @@
 					<Image condition="contains">Microsoft Remote Desktop</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential BeamYourScreen/Mikogo use detected" groupRelation="or">
-					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe</Image>
+					<Image condition="is any">mikogo.exe;mikogo-starter.exe;mikogo-service.exe;mikogolauncher.exe;Mikogo-Screen-Service.exe;Mikogo-Host.exe;M4-Capture.exe;M4-Service.exe;B-Capture.exe;B-Service.exe;Mikogo-video.exe;beamyourscreen.exe;BYS_Setup.exe;beamyourscreen-host.exe;mikogo_setup.exe</Image>
 					<Image condition="contains any">\BeamYourScreen;\Mikogo</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MioNet (Also known as WD Anywhere Access)/MioNet (WD Anywhere Access) use detected" groupRelation="or">
-					<Image condition="is any">MioNet.exe;MioNetManager.exe</Image>
-					<Image condition="contains">\MioNet\</Image>
+					<Image condition="is any">MioNet.exe;MioNetManager.exe;ServiceStatusGui.exe;ARPMio.exe;MioNetLauncher.exe;wdaccess.exe;WDAccessSetup.exe</Image>
+					<Image condition="contains any">\MioNet\;\WD Access\;install_mionet_;WDAnywhereAccess</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MobaXterm use detected" groupRelation="or">
-					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe</Image>
-					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm</Image>
+					<Image condition="is any">mobaxterm.exe;XWin_MobaX.exe;MobaRTE.exe;MobAgent.exe;MobaKeyGen.exe;MobaSCP.exe;MoTTY.exe;MobaBox.exe;MobaVNC.exe</Image>
+					<Image condition="contains any">\Mobatek\;\MobaXterm;MobaXterm;mobawget;XWin_MobaX_</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Mouse Without Borders use detected" groupRelation="or">
 					<Image condition="is any">MouseWithoutBordersHelper.exe;MouseWithoutBorders.exe;MouseWithoutBordersSvc.exe</Image>
@@ -10732,7 +10740,7 @@
 					<Image condition="contains any">\Quick Restore\;\MSP360\</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyGreenPC use detected" groupRelation="or">
-					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe</Image>
+					<Image condition="is any">MyGreenPC;mygreenpc.exe;greenpcsvc.exe;greenpc.exe;GreenPCSetup.exe</Image>
 					<Image condition="contains any">\mygreenpc\;MyGreenPC</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential MyIVO use detected" groupRelation="or">
@@ -10740,7 +10748,7 @@
 					<Image condition="contains any">\MyIVO;\Aleric\;myivo-</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential Naverisk/Splashtop/Splashtop Beta/Splashtop Remote use detected" groupRelation="or">
-					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe</Image>
+					<Image condition="is any">RMM_Client.exe;strwinclt.exe;SRUpdateAPI.exe;SRUpdate.exe;strwinchat.exe;strwincmpt.exe;strwinfile.exe;SSU_Clean.exe;SRWebview.exe;SRServer.exe;SplashtopSOS.exe;SRManager.exe;sragent.exe;srservice.exe;SRAuto.exe;clientoobe.exe;SRMsg.exe;SRFeatureSOS.exe;SRFeatureSOSNOUIA.exe;SRFeatureSOSUIA.exe;SRManagerSOS.exe;strwinsession.exe;ClientUtil.exe;PreVerCheck.exe;PinShortCut.exe;spupnp.exe;SRAppBS.exe;SRDetect.exe;SRFeature.exe;SRFLauncher.exe;SRSelfSignCertUtil.exe;SRSendLog.exe;SRSOOBE.exe;SRUACCheck.exe;SRUpdateInstall.exe;SRUtility.exe;SRChat.exe;STCSSU.exe;STCActivate.exe;STCAgent.exe;STCHelper.exe;STCSE.exe;SRFeatureFF.exe;SRServerFF.exe;SRServiceFF.exe;SRSOOBEFF.exe;SRUpdateFF.exe;SRUpdateInstallFF.exe;SSUService.exe;SRUnPackFile.exe;SRMergeFile.exe;BdEpSDK.exe;BdEpSDK_x86.exe;SRUsb.exe</Image>
 					<Image condition="contains any">\Splashtop Remote\;\Splashtop\;\Client for RMM\;AgentSetup-;Splashtop_for_RMM_Win_;Splashtop_Streamer_Windows</Image>
 				</Rule>
 				<Rule name="Remote Admin Software - Potential NetLock RMM use detected" groupRelation="or">
